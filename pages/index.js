@@ -17,6 +17,9 @@ export async function getStaticProps() {
     item.id = index + 1;
   });
 
+  // console.log("aqui")
+  // console.log(data.results)
+
   return {
     props: {
       pokemons: data.results,
